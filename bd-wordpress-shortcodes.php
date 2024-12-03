@@ -11,7 +11,7 @@
  * Plugin Name: BD WordPress Shortcodes
  * Plugin URI:  https://example.com/plugin-name
  * Description: A few shortcodes to make life easier in the future, like outputting the current year in the copyright.
- * Version:     1.0.0
+ * Version:     2.0.0
  * Author:      Brianna Deleasa
  * Author URI:  https://example.com
  * Text Domain: bd-wordpress-shortcodes
