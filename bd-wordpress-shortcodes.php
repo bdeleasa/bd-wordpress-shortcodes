@@ -216,3 +216,21 @@ function shortcode_title(array $atts, string $content = null ): string|null
 {
     return get_the_title();
 }
+
+
+add_shortcode( 'archive-title', __NAMESPACE__ .'\shortcode_archive_title' );
+/**
+ * Outputs the title of the current post.
+ *
+ * Usage: [archive-title]
+ *
+ * @since 2.2.0
+ *
+ * @param array $atts
+ * @param string|null $content
+ * @return string|null
+ */
+function shortcode_archive_title(array $atts, string $content = null ): string|null
+{
+    return get_the_archive_title();
+}
